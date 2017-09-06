@@ -50,7 +50,7 @@ public class Databaseconnection
                 String email = rs.getString("email");
                 
                 System.out.println(id+ " " + firstname + " " + lastname + " "+ email);
-                System.out.println("test2");
+                System.out.println("test");
             }
 
             conn.close();
